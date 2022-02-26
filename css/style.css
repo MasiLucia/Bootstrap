@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #212529;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: violet;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(46, 3, 46);
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    color: white;
+    background-color: rgb(46, 3, 46);
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.products {
+    padding: 20px;
+    justify-content: center;
+}
+
+.btn1 {
+    background-color: rgb(46, 3, 46);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+.card-body {
+    text-align: center;
+}
