@@ -64,9 +64,141 @@ a {
     padding: 10px;
     border-radius: 15px;
     text-decoration: none;
-    
+    color: white;
 }
 
 .card-body {
     text-align: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+   
+   }
+
+.form img{
+ width: 50%;
+
+}
+
+.wish {
+    display: inline;
+}
+
+.sub {
+    margin-top: 3%;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+/* FAQS */
+.faqs {
+    color: #212529;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+/* ABOUT */
+.img-thumbnail {
+    width: 10%;
+    height: 10%;
+    margin: 20px;
+    filter: brightness(0.9);
+    mix-blend-mode: multiply;
+}
+
+.g-col-6 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.25rem;
+	color: #fff;
+	position: relative
+    
+    
+}
+
+.about {
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    padding-bottom: 20px;
+}
+
+.about:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.cero {
+    margin: 0;
+    padding-top: 10%;
+    font-size: 40px;
+	color: #fff;
+	position: relative
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.form img {
+    width: 100%;
+}
 }
